@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+  width: 100%;
+  
+}
+
+#word{
+  font-size: 40px;
+}
+
+#word1{
+  font-size: 28px;
+}
+
+#box{
+  font-size: 28px;
+}
+
+#name{
+  font-size: 28px;
+}
+
+#correctWord{
+  font-size: 28px;
+}
+
+.container{
+  background-image: url("white-bg.jpg");
+  background-size: 100% 100%;
+  
+  
+}
+
+.row{
+  border: 1px solid black;
+}
+
+.column1style{
+  height:10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column2style{
+  height:60vh;
+  padding-top: 2vh;
+}
+
+#winshow{
+  position: fixed;
+  bottom: 30vh;
+  right: 10vh;
+  z-index: 99;
+  border: none;
+  outline: none;
+  display: none;
+}
+
+#looseshow{
+  position: fixed;
+  bottom: 30vh;
+  right: 10vh;
+  z-index: 99;
+  border: none;
+  outline: none;
+  display: none;
+}
+
+#msgtoplayer{
+  font-size: 30px;
+}
+
+#winshow{
+  position: fixed;
+  
+}
+#easybtn , #middlebtn , #diffbtn{
+  background-color:black;
+  color:white;
+  border-radius:10px;
+  font-size:20px;
+}
+
+#easybtn:hover , #middlebtn:hover , #diffbtn:hover{
+  background-color:red;
+}
+
+#checkans , #guessAgain , #clearLastChar , #reStart{
+  background-color:gray;
+  color:#dfdddd;
+  border-radius:10px;
+  font-size:15px;
+  margin:5px;
+}
+
+#checkans:hover , #guessAgain:hover , #clearLastChar:hover , #reStart:hover{
+  background-color:yellow;
+  color:black;
+}
